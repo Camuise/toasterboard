@@ -610,14 +610,32 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_asc": false,
+      "sort_field": "${EXCLUDE_FROM_BOARD}"
     },
     "bus_aliases": {},
     "connection_grid_size": 50.0,
@@ -648,6 +666,14 @@
     "meta": {
       "version": 1
     },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
@@ -660,7 +686,7 @@
         "uuid": "f76db277-9819-43c4-97e3-42242af55e75"
       }
     ],
-    "used_designators": "SW1-4,R1-5,J3,C1-3,#PWR5-7,LED_CLK1,LED1-5",
+    "used_designators": "R_RV1,R_CLK1,R_LED5,RV1,SW1-4,R1-5,J3,C1-3,#PWR5-7,LED_CLK1,LED1-5",
     "variants": []
   },
   "sheets": [
