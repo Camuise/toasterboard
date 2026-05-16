@@ -11,7 +11,7 @@ Spent today reverse-engineering the BBCIII and laying out the schematic.
 
 Update: Actually, I found that the Breadboard Companion has publicly available schematics hosted on [their website](https://breadboardcompanion.com/projects-and-freebies)! They're really low-quality though, I can barely read it. 
 
-![Picture of low-quality schematic](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-schematic.jpeg)
+![Picture of low-quality schematic](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-schematic.png)
 
 Change of plans, I'm first going to recreate the original BBCIII to the best of my ability using the schematic *before* I start making improvements to the design. I have two major gripes that I want to fix in the original design:
 1. Barrel jack connector/ 9V battery. Very inconvenient to use, so plan is to swap to a USB-C port.
@@ -22,7 +22,7 @@ I might switch the through hole mounted components to SMD? We'll see. For now, I
 
 Today so far I've added the voltage regulator, the 555 timer, and the Schmitt trigger. I've yet to finish wiring them up yet. What I have finished though, is wiring up the LEDs and DIP switches!
 
-![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-progress.jpeg)
+![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-progress.png)
 
 **Total time spent: 3 hours**
 
