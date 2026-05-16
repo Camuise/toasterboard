@@ -5,9 +5,7 @@ description: "Open-source Breadboard Companion clone"
 created_at: "2026-05-15"
 ---
 
-# Hack Club Forge Journal
-
-## May 15: Started work!
+# May 15: Started work!
 
 Spent today reverse-engineering the BBCIII and laying out the schematic.
 
