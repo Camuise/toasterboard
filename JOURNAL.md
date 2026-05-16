@@ -25,3 +25,7 @@ Today so far I've added the voltage regulator, the 555 timer, and the Schmitt tr
 ![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-progress.jpeg)
 
 **Total time spent: 3 hours**
+
+# May 16: Continuing the schematic
+
+
