@@ -28,4 +28,12 @@ Today so far I've added the voltage regulator, the 555 timer, and the Schmitt tr
 
 # May 16: Continuing the schematic
 
+I think the schematic is finished now? I spent a lot of time on figuring out what footprints to assign, but now it's complete? I just have to add the power input plugs.
+
+![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-schematic.png)
+![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-pcb.png)
+![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-3d.png)
+
+**Time spent: 2 hours**
+
 
