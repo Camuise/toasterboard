@@ -9,7 +9,7 @@ created_at: "2026-05-15"
 
 Spent today reverse-engineering the BBCIII and laying out the schematic.
 
-Update: Actually, I found that the Breadboard Companion has publicly available schematics hosted on [their website](https://breadboardcompanion.com/projects-and-freebies)! They're really low-quality though, I can barely read it. 
+Update: Actually, I found that the Breadboard Companion has publicly available schematics hosted on [their website](https://breadboardcompanion.com/projects-and-freebies)! They're really low-quality though, I can barely read it.
 
 ![Picture of low-quality schematic](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-schematic.png)
 
@@ -39,6 +39,12 @@ I think the schematic is finished now? I spent a lot of time on figuring out wha
 I added the power plugs, with some help from Google Gemini to figure out how to handle multiple power input sources properly (obligatory chat link for the [USB-C port](https://t3.chat/share/x91vfc2y4v) and the [barrel jack](https://t3.chat/share/xf3eg8aq73)). In addition, I added a switch so the user can swap between the two power inputs I'm providing.
 
 ![Completed power circuit](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may16-pwr.png)
+
+Some major points of my chats with Gemini that I thought were worth logging:
+
+- Gemini suggested swapping the 74LS14 Schmitt trigger for a 74HC14, which is a more modern part. I went ahead and made the change and it shouldn't affect the functionality? Apparently it runs cooler, which would be nice.
+- Gemini introduced me to and helped me implement a rectifier circuit for the barrel jack input, so that if the user accidentally plugs in a power supply with the wrong polarity, it won't damage the board.
+- *Most importantly*, Gemini helped me figure out how to handle the power input switching between the USB-C port and the barrel jack. I was initially planning on using a simple SPDT switch to swap between the two power inputs, wired straight to VDC, but Gemini pointed out that I was running the 5V from the USB-C port through the voltage regulator, which would choke on the 5V input. The solution was to move the voltage regulator *before* the power input switch, so that the switch is swapping between the raw inputs instead of the regulated output. This way, the voltage regulator can handle both the variable (but hopefully 9V) input from the barrel jack and the 5V input from the USB-C port without issue.
 
 I also finished routing everything!
 
