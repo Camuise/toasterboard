@@ -30,10 +30,20 @@ Today so far I've added the voltage regulator, the 555 timer, and the Schmitt tr
 
 I think the schematic is finished now? I spent a lot of time on figuring out what footprints to assign, but now it's complete? I just have to add the power input plugs.
 
-![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-schematic.png)
-![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-pcb.png)
-![Schematic progress for today](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-3d.png)
+![Finished schematic](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-schematic.png)
+![Finished PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-pcb.png)
+![3D preview of PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may15-3d.png)
 
 **Time spent: 2 hours**
 
+I added the power plugs, with some help from Google Gemini to figure out how to handle multiple power input sources properly (obligatory chat link for the [USB-C port](https://t3.chat/share/x91vfc2y4v) and the [barrel jack](https://t3.chat/share/xf3eg8aq73)). In addition, I added a switch so the user can swap between the two power inputs I'm providing.
 
+![Completed power circuit](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may16-pwr.png)
+
+I also finished routing everything!
+
+![Routed PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may16-routedPCB.png)
+
+**Time spent: 8 hours**
+
+**Total time spent: 10 hours**
