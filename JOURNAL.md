@@ -47,3 +47,12 @@ I also finished routing everything!
 **Time spent: 8 hours**
 
 **Total time spent: 10 hours**
+
+# May 17: Making things prettier
+
+I rounded off the corners of the board and added my little logo! I also moved some stuff around to compact things and now it's pretty much complete?
+
+![Finished PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-pcb.png)
+![3D preview of finished PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-3d.png)
+
+**Total time spent: 1 hour**
