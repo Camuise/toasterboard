@@ -686,7 +686,7 @@
         "uuid": "f76db277-9819-43c4-97e3-42242af55e75"
       }
     ],
-    "used_designators": "R_RV1,R_CLK1,R_LED5,RV1,SW1-4,R1-5,J3,C1-3,#PWR5-7,LED_CLK1,LED1-5",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
