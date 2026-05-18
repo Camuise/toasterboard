@@ -11920,6 +11920,54 @@
 		(layer "Edge.Cuts")
 		(uuid "3f1624b0-5d77-4845-a4ac-390b5a85e6b0")
 	)
+	(gr_text "STANDALONE"
+		(at 103.5 84.5 270)
+		(layer "F.SilkS")
+		(uuid "a4a67795-c136-48f5-b86c-17cf47c1b703")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.125)
+			)
+			(justify right top)
+		)
+	)
+	(gr_text "Vin"
+		(at 126.5 68.5 90)
+		(layer "F.SilkS")
+		(uuid "8455dbca-c77b-4298-9de4-4fdd899c24cb")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "CLK"
+		(at 129 68.5 90)
+		(layer "F.SilkS")
+		(uuid "ec0faae2-f690-43c5-a715-1538a9d465e2")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
+	(gr_text "GND"
+		(at 131.5 68.5 90)
+		(layer "F.SilkS")
+		(uuid "81a41da9-e606-411a-b825-37fa2b8b6e61")
+		(effects
+			(font
+				(size 1 0.75)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "R_USB"
 		(at 131.5 99 0)
 		(layer "F.SilkS")
@@ -11932,8 +11980,20 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "5V"
+		(at 124 68.5 90)
+		(layer "F.SilkS")
+		(uuid "8caf1a26-f1cd-48ea-aec5-9e090c5977ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify right bottom)
+		)
+	)
 	(gr_text "L4"
-		(at 142 71 90)
+		(at 142 68.5 90)
 		(layer "F.SilkS")
 		(uuid "af832e53-517e-40fe-9c4d-d1b399cb453d")
 		(effects
@@ -11941,11 +12001,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "L3"
-		(at 144.5 71 90)
+		(at 144.5 68.5 90)
 		(layer "F.SilkS")
 		(uuid "10abee52-2af7-4e3c-8166-ac268cf41806")
 		(effects
@@ -11953,11 +12013,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "L2"
-		(at 147 71 90)
+		(at 147 68.5 90)
 		(layer "F.SilkS")
 		(uuid "76d40644-6ce7-4d20-8538-a67ed310fbf9")
 		(effects
@@ -11965,11 +12025,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "L1"
-		(at 149.5 71 90)
+		(at 149.5 68.5 90)
 		(layer "F.SilkS")
 		(uuid "fc9e6f29-1dc5-4593-ae9c-4e7250019946")
 		(effects
@@ -11977,11 +12037,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "S4"
-		(at 154.5 71 90)
+		(at 154.5 68.5 90)
 		(layer "F.SilkS")
 		(uuid "354e1872-bb04-40ca-b92c-67ffd3e9f69e")
 		(effects
@@ -11989,11 +12049,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "S3"
-		(at 157 71 90)
+		(at 157 68.5 90)
 		(layer "F.SilkS")
 		(uuid "8ad97086-9af4-4c82-9072-f5347c9007ae")
 		(effects
@@ -12001,11 +12061,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "S2"
-		(at 159.5 71 90)
+		(at 159.5 68.5 90)
 		(layer "F.SilkS")
 		(uuid "8fe538dc-83a5-4c4f-be32-15e7c6d02c13")
 		(effects
@@ -12013,11 +12073,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "S1"
-		(at 162 71 90)
+		(at 162 68.5 90)
 		(layer "F.SilkS")
 		(uuid "b5f9822e-3dbc-45af-902d-70308e60d39a")
 		(effects
@@ -12025,7 +12085,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 	)
 	(gr_text "USB"
@@ -12053,7 +12113,7 @@
 		)
 	)
 	(gr_text "Mk. I"
-		(at 104 85 270)
+		(at 104.000448 84.687219 270)
 		(layer "F.SilkS")
 		(uuid "f1d459e2-3ecd-47e5-a5a2-c6e8a91a82ae")
 		(effects

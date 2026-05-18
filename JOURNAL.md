@@ -79,5 +79,20 @@ I also remembered that the Arduino R4 WiFi (my preferred Arduino board) doesn't 
 
 ![Pull-up resistor schematic](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-pullups.png)
 
-**Time spent: 30 minutes**
+Then I went back and added the same labels to the standalone version:
 
+![Labeled standalone PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-labeled-standalone-pcb.png)
+
+I also added labels to the standalone version and shield version PCBs to indicate the different types of board.
+
+![Labeled standalone PCB text](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-labeled-standalone-text.png)
+
+![Labeled shield PCB text](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-shield-text.png)
+
+Somehow I forgot that for a shield to still allow pass-through access to the Arduino's pins, I have to have headers on the top of the shield. So I added those in and labeled them as well. And that the bottom should be pins, not headers.
+
+![Pins on shield](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-pins.png)
+
+**Time spent: 1 hour**
+
+**Total time spent: 4 hours**

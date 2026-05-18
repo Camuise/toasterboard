@@ -724,7 +724,7 @@
         "uuid": "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
       }
     ],
-    "used_designators": "R_RV2,#PWR9,R_PULLUP2,CLK2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
