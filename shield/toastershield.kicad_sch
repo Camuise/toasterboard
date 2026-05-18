@@ -4638,6 +4638,12 @@
 		(uuid "3dcc657b-55a1-48e0-9667-e01e7b6b08b5")
 	)
 	(junction
+		(at 185.42 121.92)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "523f42a4-093d-4061-8e05-06df58e7fd1f")
+	)
+	(junction
 		(at 120.65 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4845,6 +4851,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 115.57) (xy 185.42 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11b7ddd7-077f-40a0-8b70-8003f6d02ea0")
+	)
+	(wire
+		(pts
 			(xy 39.37 130.81) (xy 39.37 135.89)
 		)
 		(stroke
@@ -4872,6 +4888,16 @@
 			(type default)
 		)
 		(uuid "17828802-53dc-4abe-b835-8beb7e154112")
+	)
+	(wire
+		(pts
+			(xy 198.12 128.27) (xy 195.58 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18176dd8-fa12-4c32-8955-12d545a80a6b")
 	)
 	(wire
 		(pts
@@ -5105,6 +5131,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 121.92) (xy 185.42 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4074d36e-aaf3-43b7-bba2-4a86fe9fd604")
+	)
+	(wire
+		(pts
 			(xy 55.88 36.83) (xy 68.58 36.83)
 		)
 		(stroke
@@ -5322,6 +5358,16 @@
 			(type default)
 		)
 		(uuid "6f1d241c-6075-4e1b-81ac-927d5f57fce6")
+	)
+	(wire
+		(pts
+			(xy 185.42 121.92) (xy 185.42 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f4fe4c4-c324-4551-96c6-73e07c5f36ba")
 	)
 	(wire
 		(pts
@@ -5575,6 +5621,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 115.57) (xy 185.42 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9da4142f-f492-4d3b-859d-ddd513168f1e")
+	)
+	(wire
+		(pts
 			(xy 143.51 118.11) (xy 156.21 118.11)
 		)
 		(stroke
@@ -5672,6 +5728,16 @@
 			(type default)
 		)
 		(uuid "ae55b7fb-7ed9-4871-aa6c-e1f58e27278d")
+	)
+	(wire
+		(pts
+			(xy 185.42 128.27) (xy 187.96 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4c1f583-54b5-4ad3-8445-1052a4931111")
 	)
 	(wire
 		(pts
@@ -5922,6 +5988,16 @@
 			(type solid)
 		)
 		(uuid "e7278977-132b-4777-9eb4-7d93363a4379")
+	)
+	(wire
+		(pts
+			(xy 198.12 115.57) (xy 195.58 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8eaa371-ae94-45f9-b339-0ed35304b005")
 	)
 	(wire
 		(pts
@@ -6313,6 +6389,30 @@
 		)
 		(uuid "ea5aa60b-a25e-41a1-9e06-c7b6f957567f")
 	)
+	(global_label "SCL{slash}A5{slash}1"
+		(shape input)
+		(at 198.12 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "251d8af4-1d46-4e73-9e1c-04323e71dfea")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.8765 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "*9"
 		(shape input)
 		(at 156.21 115.57 0)
@@ -6374,6 +6474,30 @@
 		(uuid "65709b48-0ded-477d-a783-38d8e5f60838")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 161.4674 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "SDA{slash}A4{slash}2"
+		(shape input)
+		(at 198.12 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6965997a-89d9-42d7-b33e-166898f1cce0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.937 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8077,6 +8201,86 @@
 	)
 	(symbol
 		(lib_id "PCM_Resistor_US_AKL:R_DIN0207_P5.08mm")
+		(at 191.77 115.57 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f91227f-b34a-459b-94e1-758b6cb978de")
+		(property "Reference" "R_PULLUP1"
+			(at 191.77 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 191.77 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_US_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 203.2 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "THT 0207 Resistor, 5.08mm Pin Pitch, US Symbol, Alternate KiCad Library"
+			(at 191.77 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2ebac37-b5d9-4edd-87e8-2e08dfad35fe")
+		)
+		(pin "2"
+			(uuid "10307fa5-943f-4c07-81db-df2230950ea4")
+		)
+		(instances
+			(project "toastershield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R_PULLUP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_DIN0207_P5.08mm")
 		(at 143.51 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -9278,6 +9482,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 182.88 121.92 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d4efb40c-3b0b-407b-a8ea-f6df07d6faa4")
+		(property "Reference" "#PWR09"
+			(at 186.69 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 179.07 121.9199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 182.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 182.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 182.88 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12131d73-dd47-4ea4-9c9c-1b978efb7ad0")
+		)
+		(instances
+			(project "toastershield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_SPDT")
 		(at 67.31 125.73 270)
 		(unit 1)
@@ -9863,6 +10146,86 @@
 			(project "toastershield"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R_RV1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_Resistor_US_AKL:R_DIN0207_P5.08mm")
+		(at 191.77 128.27 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc246f03-81fc-4398-ab52-ee1c9b111c51")
+		(property "Reference" "R_PULLUP2"
+			(at 191.77 121.92 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5.1k"
+			(at 191.77 124.46 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_Resistor_THT_US_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 203.2 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "THT 0207 Resistor, 5.08mm Pin Pitch, US Symbol, Alternate KiCad Library"
+			(at 191.77 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ccf110a8-b5ef-4891-95f1-ed68c7e77c26")
+		)
+		(pin "2"
+			(uuid "8ed6bee2-708d-4cae-a409-c4ce3ec710ba")
+		)
+		(instances
+			(project "toastershield"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R_PULLUP2")
 					(unit 1)
 				)
 			)

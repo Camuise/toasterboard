@@ -70,3 +70,14 @@ I decided that, while having a single standalone board is nice, it would be cool
 ![3D preview of finished shield](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-shield-3d.png)
 
 **Time spent: 2 hours**
+
+I realized that I forgot to label the pins on both the standalone and shield versions, so I went back and added labels to all the pins. I did the shield version first as I had it open already from the last journal entry.
+
+![Labeled shield PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-labeled-shield-pcb.png)
+
+I also remembered that the Arduino R4 WiFi (my preferred Arduino board) doesn't have I2C pull-up resistors built in, so I added some 5.1k pull-up resistors to the I2C lines.
+
+![Pull-up resistor schematic](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-pullups.png)
+
+**Time spent: 30 minutes**
+
