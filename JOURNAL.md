@@ -61,4 +61,12 @@ I rounded off the corners of the board and added my little logo! I also moved so
 ![Finished PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-pcb.png)
 ![3D preview of finished PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-3d.png)
 
-**Total time spent: 1 hour**
+**Time spent: 1 hour**
+
+I decided that, while having a single standalone board is nice, it would be cool if it was also available in a shield form factor for Arduino UNO users. So that's what I did!
+
+![Finished shield schematic](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-shield-schematic.png)
+![Finished shield PCB](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-shield-pcb.png)
+![3D preview of finished shield](https://raw.githubusercontent.com/Camuise/toasterboard/refs/heads/main/assets/journal/may17-shield-3d.png)
+
+**Time spent: 2 hours**
